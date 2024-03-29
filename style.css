@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+   
+    cursor:none;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+}
+
+.chunk{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    font-family: 'resistance';
+    font-style: italic;
+    color:rgb(25, 0, 255);
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.chunk:hover {
+    color: #ff0073; /* green */
+  }
+
+
+
+@font-face {
+    font-family: 'resistance'; /* Name to use in your CSS */
+    src: url('./resistance_generale-webfont.woff') format('truetype'); /* Path to your font file */
+  }
